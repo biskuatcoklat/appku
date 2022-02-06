@@ -390,3 +390,24 @@ footer button.show{
     width:97%;
     height:50px;   /* Contoh tinggi footer 60px */
  }
+ @media screen and (max-width: 780px) {
+    
+    .header, 
+    .footer{
+        text-align: center;
+    }
+    .left {
+        width: auto;
+        float: none;
+    }
+    
+    .middle {
+        width: auto;
+        float: none;
+    }
+    
+    .right {
+        width: auto;
+        float: none;
+    }
+}
